@@ -22,162 +22,34 @@
 	input{			
 	outline:medium;		
 	}
-	.userhome_text {
-	text-align:left;
-	color:rgb(239,240,244);
-	font-size:1.4em;
-	float:center;
-	}
-	.break {
-	margin-top:4px;
-	width:15px;
-	float:left;
-	}
-	.username {
-	position:relative; 
-	text-align:left;
-	height:130px;
-	}
-	.back_ground {
-	position:absolute; 
-	height:100%;
-	width:100%;
-	float:left;
-	}
-	.black_back {
-	background:#8e8e8e;
-	opacity: 0.5;
-	height:130px;
-	position:absolute;
-	width:100%;
-	float:left;
-	}				
-	.head_img {
-	position:absolute; 
-	margin-top:30px;
-	margin-bottom:30px;
-	margin-left:20px;
-	margin-right:20px;
-	border-radius: 50px;
-	width:70px;
-	}
-	.referral {
-	position:absolute;
-	float:left;
-	margin-left:60px;
-	padding:45px;
-	}
-				
-	.name {
-	font-size:1em;
-	color:white;
-	}
-	.address_img {
-	width:10px;
-	}
-	.address_text {
-	font-size:0.6em;
-	color:white;
-	}
-	.main_style_1 {
-	padding:15px 0 15px 0;
-	position:relative;
-	font-size:0.9em;
-	text-align:left;
-	border-width: 0 0 1px 0;
-	border-style: solid;
-	border-color: #8e8e8e;
-	width:100%;
-	float:left;
-	}
-	/* 基本介绍样式 */	
-	.main_style_2 {
-	padding:15px 0 15px 0;
-	position:relative;
-
-	margin-left:10px;
-	font-size:0.9em;
-	text-align:left;
-	border-width: 0 0 1px 0;
-	border-style: solid;
-	border-color: #8e8e8e;
-	width:95%;
-	float:left;
-	}
-	.main_style_3 {
-	padding:15px 0 15px 0;
-	position:relative;
+	.header{
+		border-radius: 5px;
+		margin:0 auto;
+		width:135px;
+		background:rgb(85,168,179); /* 背景色 */ 
+		
+		}
+	.button_1 {
 	
-	margin-left:10px;
-	margin-bottom:70px;
-	font-size:0.9em;
-	text-align:left;
-	border-width: 0 0 1px 0;
-	border-style: solid;
-	border-color: #8e8e8e;
-	width:95%;
-	float:left;
-	}
-	.line1 {
-	margin-top:1px;
-	margin-left:10px;
-	margin-right:10px;
-	position:relative;
-	height:15px;
-	width:2px;
-	float:left;
-	background:rgb(95,192,205);
-	}
-
-	.line3 {
-		
-	margin-top:1px;
-	margin-left:10px;
-	margin-right:10px;
-	position:relative;
-	height:20px;
-	width:2px;
-	float:left;
-	background:#8e8e8e;
-	}
+	border:0px solid rgb(95,192,205);
+	border-radius: 5px;
+	color:rgb(255, 255, 255);
 	
-	.star_img {
-	width:15px;		
-	}
-	.age_limit {	
-	margin-left:10px;
-	text-align:left;
-	font-size:0.9em;
-	}
-	.text {
-		
-	font-size:0.9em;
-	color:#8e8e8e;
-	float:left;
-	}
-
-		
-	.price {
- 		
+	font-size:1.1em;
 	
-	text-align:left;
-	font-size:0.9em;
+	background:rgb(85,168,179);  /* 背景色 */ 
+	
 	}
-	.text_red {
-	color:#f34141;	
-	}
-
-	.text_introduction1 {
-    position:absolute;
-	top:40%;
-	float:left;
-		
-	}
-	.text_introduction2 {
-
-	position:relative;
-	left:75px;
-	width:74%;	
+	.button_2 {
+	
+	border:0px solid rgb(95,192,205);
+	border-radius: 5px;
+	color:rgb(85,168,179);
+	
+	font-size:1.1em;
+	
+	background:rgb(255, 255, 255);  /* 背景色 */ 
+	
 	}
 
 	.footer_1 {

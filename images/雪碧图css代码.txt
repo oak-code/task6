@@ -1,8 +1,9 @@
-@mixin img{background:url(../images/img.png) no-repeat;background-size:23px 127px }
-@mixin back{height:16px;width:9px;background-position: 0 0;}
-@mixin data{height:12px;width:12px;background-position: -25px 0;}
-@mixin location{height:16px;width:12px;background-position: 0 -28px;}
-@mixin pen{height:20px;width:20px;background-position: -25px -21px;}
-@mixin adress{height:22px;width:21px;background-position: 0 -65px;}
-@mixin people{height:20px;width:21px;background-position: -38px -64px;}
-@mixin home{height:20px;width:23px;background-position: 0 -107px;}
+.img{background:url(../images/img.png)  no-repeat;background-size:125px 22px}
+.tragle{height:4px;width:6px;background-position:0 0;}
+.back{height:16px;width:9px;background-position:-22px 0;}
+.data{height:12px;width:12px;background-position:-48px 0;}
+.location{height:16px;width:12px;background-position:-80px 0;}
+.pen{height:20px;width:20px;background-position:-115px 0;}
+.people{height:20px;width:21px;background-position:-158px 0;}
+.adress{height:22px;width:21px;background-position:-197px 0;}
+.home{height:20px;width:23px;background-position:-244px 0;}
