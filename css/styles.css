@@ -22,6 +22,7 @@
 	input{			
 	outline:medium;		
 	}
+	li{list-style:none}
 	.header{
 		border-radius: 5px;
 		margin:0 auto;
@@ -29,6 +30,15 @@
 		background:rgb(85,168,179); /* 背景色 */ 
 		
 		}
+	.head_img{
+		float:right;
+		width:18px;
+		margin:0;
+		padding:0;
+		position:relative;
+		bottom:25px;
+	}
+
 	.button_1 {
 	
 	border:0px solid rgb(95,192,205);
@@ -51,7 +61,47 @@
 	background:rgb(255, 255, 255);  /* 背景色 */ 
 	
 	}
-
+	.list_header{
+		color:rgb(175,186,192);
+		border-width: 0 0 1px 0;
+		border-style: solid;
+		border-color: #8e8e8e;
+		height:50px;
+	}
+	.list_header1{
+		float:left;
+		width:33.1%;
+		padding-top:12px;
+		padding-bottom:12px;
+		margin-top:2px;
+		
+	}
+	.list_header2{
+		float:left;
+		width:33%;
+		padding-top:12px;
+		padding-bottom:12px;
+		margin-top:2px;
+		border-width: 0 1px 0  1px;
+		border-style: solid;
+		border-color: #8e8e8e;
+	}
+	.list_header3{
+		float:left;
+		width:33.1%;
+		padding-top:12px;
+		padding-bottom:12px;
+		margin-top:2px;
+		
+	}
+	.tragle{
+		float:right ;
+		
+		margin-top:6px;
+		margin-bottom:6px;
+		position:relative;
+		right:8px;
+	}
 	.footer_1 {
 	margin:4px;
 	border:3px solid rgb(95,192,205);
@@ -77,3 +127,13 @@
 	background:rgb(95,192,205); /* 背景色 */ 
 	float:right;
 	}
+	
+.img{background:url(../images/img.png)  no-repeat;background-size:125px 22px}
+.tragle{height:4px;width:6px;background-position:0 0;}
+.back{height:16px;width:9px;background-position:-22px 0;}
+.data{height:12px;width:12px;background-position:-48px 0;}
+.location{height:16px;width:12px;background-position:-80px 0;}
+.pen{height:20px;width:20px;background-position:-115px 0;}
+.people{height:20px;width:21px;background-position:-158px 0;}
+.adress{height:22px;width:21px;background-position:-197px 0;}
+.home{height:20px;width:23px;background-position:-244px 0;}
