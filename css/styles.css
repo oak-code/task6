@@ -25,7 +25,8 @@
 	background:rgb(248,250,251); /* 背景色 */ 
 	}
 	input{			
-	outline:medium;		
+	outline:medium;	
+	-webkit-appearance:none;	/*不使用苹果浏览器默认UI渲染*/
 	}
 	li{
 		list-style:none;
@@ -116,8 +117,19 @@
 		position:relative;
 		right:8px;
 	}
-	.li1{
-		width:70%;
+	.li_1{
+		float:left;
+		width:80%;
+	}	
+	.li_2{
+		float:left;
+		width:90%;
+		padding-left:3%;
+		height:16px;
+	}
+	.li_3{
+		float:left;
+		width:80%;
 	}
 	.time{
 		float:left;
@@ -125,24 +137,29 @@
 		height:24px;
 		width:26px;
 		background-position:-95px 0;
+		transform: scale(0.7);/*缩放*/
 		margin-top:5px;
 		margin-left:3%;
 	}
 	.time_text{
-		width:60%;
+		
 		float:left;
 		margin-top:5px;
 		margin-left:10px;
 		margin-bottom:0;
 		color:rgb(175,186,192);
 		text-align:left;
+		word-break:break-all;/*强制换行*/
 	}
 	
 	.day{
+		text-align:left;
 		float:left;
-		margin-top:5px;
-		margin-left:15px;
+		margin-top:0px;
 		margin-bottom:0;
+		margin-left:35px;
+		word-break:break-all;/*强制换行*/
+		
 	}
 	.location{
 		float:left;
@@ -150,9 +167,32 @@
 		height: 30px;
 		width: 25px;
 		background-position: -160px 0;
-		margin-top:5px;
 		margin-left:3%;
+		transform: scale(0.5);/*缩放*/
+		
 		}
+
+	.price_text{
+		color:red;
+		margin:0;
+		margin-right:15px;
+		padding-left:10px;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		
+	}
+	.back{
+		float:right;
+		display:inline;
+		height:32px;
+		width:26px;
+		background-position:-37px 0;
+		transform: scale(0.5);/*缩放*/
+		margin:0;
+		position:relative;
+		bottom:25px;
+	
+	}
 	.home_box{
 		float:left;
 		width:33.1%;
@@ -234,7 +274,7 @@
 	
 .img{background:url(../images/img.png)  no-repeat;background-size:125px 22px}
 .tragle{height:4px;width:6px;background-position:0 0;}
-.back{height:16px;width:9px;background-position:-22px 0;}
+
 .data{height:12px;width:12px;background-position:-48px 0;}
 .location{height:16px;width:12px;background-position:-80px 0;}
 .pen{height:20px;width:20px;background-position:-115px 0;}
