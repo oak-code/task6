@@ -1,4 +1,6 @@
- 
+ a{
+	 text-decoration:none;
+ }
 	body { 	
 	min-width:300px;
 	padding:0px;
@@ -12,9 +14,10 @@
     top:0px;
 	height:60px;
 	width:100%;	
+	z-index:20;
 	}
 	main{
-		margin-top:60px;
+		margin-top:110px;
 		margin-bottom:100px;
 	}
 	footer {
@@ -28,7 +31,7 @@
 	outline:medium;	
 	-webkit-appearance:none;	/*不使用苹果浏览器默认UI渲染*/
 	}
-	li{
+	main li{
 		list-style:none;
 		height:80px;
 		border-width: 0  0 1px 0;
@@ -36,6 +39,18 @@
 		border-color: rgb(219, 224, 226);
 	}
 	li i{background:url(../images/img.png) ;}
+	
+	.erji{
+		float:none;
+	}/*二级列表样式*/
+	.erji_ul{
+		list-style:none;
+		display:none;
+		background:#fff;
+		padding:0px;
+	}/*二级列表样式*/
+	/*当鼠标点击时候显示二级列表*/
+	ul li:hover .erji_ul{display:block;}
 	.header{
 		border-radius: 5px;
 		margin:0 auto;
@@ -50,6 +65,7 @@
 		margin:0;
 		padding:0;
 		position:relative;
+		z-index:20;
 		bottom:25px;
 		margin-right:17px;
 	}
@@ -77,11 +93,21 @@
 	
 	}
 	.list_header{
+		margin:0px;
+		padding:0px;
+		position:fixed; 
+		top:60px;
+		height:60px;
+		width:100%;	
+		z-index:20;
+		background-color:White; 
+		list-style:none;
 		color:rgb(175,186,192);
 		border-width: 0 0 1px 0;
 		border-style: solid;
 		border-color: rgb(219, 224, 226);
 		height:50px;
+		
 	}
 	.list_header1{
 		float:left;
@@ -115,6 +141,7 @@
 		margin-top:6px;
 		margin-bottom:6px;
 		position:relative;
+		z-index:0;
 		right:8px;
 	}
 	.li_1{
@@ -140,6 +167,7 @@
 		transform: scale(0.7);/*缩放*/
 		margin-top:5px;
 		margin-left:3%;
+		z-index:0;
 	}
 	.time_text{
 		
@@ -169,7 +197,7 @@
 		background-position: -160px 0;
 		margin-left:3%;
 		transform: scale(0.5);/*缩放*/
-		
+		z-index:0;
 		}
 
 	.price_text{
@@ -191,7 +219,7 @@
 		margin:0;
 		position:relative;
 		bottom:25px;
-	
+		z-index:0;
 	}
 	.home_box{
 		float:left;
