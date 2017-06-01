@@ -1,5 +1,6 @@
  a{
 	 text-decoration:none;
+	color:rgb(175,186,192);
  }
 	body { 	
 	min-width:300px;
@@ -56,6 +57,7 @@
 	}/*二级列表样式*/
 	/*当鼠标点击时候显示二级列表*/
 	ul li:hover .erji_ul{display:block;}
+	
 	.header{
 		border-radius: 5px;
 		margin:0 auto;
@@ -107,7 +109,7 @@
 		z-index:20;
 		background-color:White; 
 		list-style:none;
-		color:rgb(175,186,192);
+		
 		border-width: 0 0 1px 0;
 		border-style: solid;
 		border-color: rgb(219, 224, 226);
@@ -155,9 +157,10 @@
 	}	
 	.li_2{
 		float:left;
-		width:90%;
+		text-align:center;
 		padding-left:3%;
 		height:16px;
+		width:96%;
 	}
 	.li_3{
 		float:left;
@@ -188,11 +191,12 @@
 	.day{
 		text-align:left;
 		float:left;
+		width: 46%;
 		margin-top:0px;
 		margin-bottom:0;
-		margin-left:35px;
-		word-break:break-all;/*强制换行*/
-		
+		margin-left:35px;		
+		overflow:hidden;
+		text-overflow:ellipsis;
 	}
 	.location{
 		float:left;
@@ -209,10 +213,7 @@
 		color:red;
 		margin:0;
 		margin-right:15px;
-		padding-left:10px;
-		overflow:hidden;
-		text-overflow:ellipsis;
-		
+		float:right;		
 	}
 	.back{
 		float:right;
@@ -223,7 +224,7 @@
 		transform: scale(0.5);/*缩放*/
 		margin:0;
 		position:relative;
-		bottom:25px;
+		bottom:5px;
 		z-index:0;
 	}
 	.home_box{
